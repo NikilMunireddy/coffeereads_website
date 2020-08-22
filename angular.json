@@ -24,9 +24,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/css/bootstrap.min.css",
+              "src/css/font-awesome.min.css",
+              "src/css/animate.min.css",
+              "src/css/lightbox.css",
+              "src/css/main.css",
+              "src/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery.js",
+              "src/js/bootstrap.min.js",
+              "src/js/lightbox.min.js",
+              "src/js/jquery.isotope.min.js",
+              "src/js/wow.min.js",
+              "src/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +132,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "coffeereads-fantasy"
+    }
+  },
+  "defaultProject": "coffeereads-fantasy",
+  "cli": {
+    "analytics": false
+  }
 }
