@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HomeComponent } from '../../pages/home/home.component'
+import { StaticDateServiceService } from "../../services/static-date-service.service"
+
 
 @Component({
   selector: 'app-instaposts',
@@ -7,9 +10,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InstapostsComponent implements OnInit {
 
-  constructor() { }
+  isContentLoaded: boolean;
+  staticPageContent: any;
+
+  constructor(private homeComponent: HomeComponent, private staticDateServiceService: StaticDateServiceService) { }
 
   ngOnInit(): void {
+    this.loadData()
+  }
+
+  loadData(){
+     this.staticDateServiceService.getData().subscribe(data =>{
+      this.staticPageContent =data
+    })
   }
 
 }
