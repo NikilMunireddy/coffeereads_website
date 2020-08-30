@@ -13,6 +13,7 @@ import { InstapostsComponent } from './components/instaposts/instaposts.componen
 import { UnderconstructionComponent } from './pages/underconstruction/underconstruction.component';
 import { Page404Component } from './pages/page404/page404.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { PhotosComponent } from './pages/photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     InstapostsComponent,
     UnderconstructionComponent,
     Page404Component,
-    ContactComponent
+    ContactComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,

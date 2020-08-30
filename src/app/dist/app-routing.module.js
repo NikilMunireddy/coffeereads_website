@@ -12,9 +12,11 @@ var router_1 = require("@angular/router");
 var home_component_1 = require("./pages/home/home.component");
 var page404_component_1 = require("./pages/page404/page404.component");
 var underconstruction_component_1 = require("./pages/underconstruction/underconstruction.component");
+var photos_component_1 = require("./pages/photos/photos.component");
 var routes = [
     { path: '', component: home_component_1.HomeComponent },
     { path: 'under-construction', component: underconstruction_component_1.UnderconstructionComponent },
+    { path: 'photos', component: photos_component_1.PhotosComponent },
     { path: '**', component: page404_component_1.Page404Component },
 ];
 var AppRoutingModule = /** @class */ (function () {

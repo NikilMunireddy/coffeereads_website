@@ -99,6 +99,58 @@
       "post_class_type": "fantasy"
     }
   ],
+  "photos" : [
+    {
+      "image_path": "../../../assets/Photos/Book1.jpg",
+      "title":"Six Of Crows",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book2.jpg",
+      "title":"The Crooked kingdom",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book3.jpg",
+      "title":"Hand sketch of Cruel Prince",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book4.jpg",
+      "title":"Hand made Cruel Prince bookmark",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book5.jpg",
+      "title":"Cruel Prince",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book6.jpg",
+      "title":"The Wicked King",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book7.jpg",
+      "title":"The Queen of Nothing",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book8.jpg",
+      "title":"The King of Scars",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book9.jpg",
+      "title":"The Six Of Crows And The Crooked kingdom",
+      "type":"fantasy"
+    },
+    {
+      "image_path": "../../../assets/Photos/Book10.jpg",
+      "title":"The King of Scars",
+      "type":"fantasy"
+    }
+  ],
   "contact_info": {
     "heading": "Contact Us",
     "subheading": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"
